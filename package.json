@@ -5,7 +5,6 @@
   "license": "MIT",
   "scripts": {
     "build": "preact build --babelConfig preact.babelrc",
-    "build:css": "tailwindcss build src/style/tailwind.css -o src/style/index.css",
     "serve": "sirv build --port 8080 --cors --single",
     "start": "snowpack dev",
     "dev": "preact watch --babelConfig preact.babelrc",
@@ -32,6 +31,7 @@
     "eslint-config-preact": "^1.1.0",
     "jest": "^26.4.2",
     "jest-preset-preact": "^4.0.2",
+    "postcss-cli": "^7.1.2",
     "preact-cli": "^3.0.0",
     "prettier": "^2.1.2",
     "servor": "^4.0.2",
